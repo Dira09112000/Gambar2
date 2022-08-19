@@ -10,7 +10,8 @@ import React from "react";
 import Revenue from "./grafik/Revenue";
 import Taskdone from "./grafik/Taskdone";
 import Visitors from "./grafik/Visitors";
-import { borderRadius } from "@mui/system";
+import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
+import { Teamactivites } from "./grafik/Teamactivites";
 
 const Body = () => {
   return (
@@ -118,7 +119,7 @@ const Body = () => {
                 <div>
                   <Taskdone />
                 </div>
-                <div>85%</div>
+                <div style={{fontWeight:"bold"}}>85%</div>
                 <div>Task done</div>
               </div>
             </div>
@@ -131,9 +132,9 @@ const Body = () => {
             >
               <div style={{ padding: "20px" }}>
                 <div>
-                  <Taskdone />
+                  <Teamactivites />
                 </div>
-                <div>58%</div>
+                <div style={{fontWeight:"bold"}}>58%</div>
                 <div>Team activities</div>
               </div>
             </div>

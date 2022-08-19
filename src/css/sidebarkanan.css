@@ -1,10 +1,8 @@
 .background{
     background-color: #FBF9FE;
-    height: auto;
-    width: 400px;
 }
 .icon-up{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .font-1{
@@ -14,17 +12,17 @@
     color: #7986A0;
 }
 .font-2{
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Lexend Deca', sans-serif;
 }
 
 .font-3{
-    font-size: small;
+    font-size: 10px;
     color: #DAD7E1;
 }
 .btn-1{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.10);
-    padding: 10px 50px;
+    padding: 10px 15px;
     background-color: white;
     color: #6149CD;
     font-size: smaller;
@@ -37,7 +35,7 @@
 }
 
 .btn-2{
-    padding: 10px 50px;
+    padding: 10px 15px;
     background-color: #6149CD;
     color: white;
     font-size: smaller;
@@ -50,6 +48,7 @@
 }
 
 .text-1{
+    font-size: 13px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     color: #7986A0;
@@ -69,10 +68,11 @@
 .text-af{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .text-trio{
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
     color: #7986A0;
 }
@@ -85,20 +85,20 @@
 }
 .icon-wallet{
     margin-left: 5px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #E8DDF6;
     color: #6149CD;
 }
 .icon-suitcase{
     margin-left: 5px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #FCEED3;
     color: #F9B035;
 }
 
 .icon-discount{
     margin-left: 5px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #FBDBD6;
     color: #F96767;
 }
