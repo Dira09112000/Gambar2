@@ -12,6 +12,7 @@ import Taskdone from "./grafik/Taskdone";
 import Visitors from "./grafik/Visitors";
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 import { Teamactivites } from "./grafik/Teamactivites";
+import { purple } from "@mui/material/colors";
 
 const Body = () => {
   return (
@@ -54,7 +55,7 @@ const Body = () => {
                 padding: "20px 20px 0px 20px",
               }}
             >
-              <div>Revenue</div>
+              <div style={{fontWeight:"bold"}}>Revenue</div>
               <div
                 style={{
                   display: "flex",
@@ -150,7 +151,7 @@ const Body = () => {
                   style={{ display: "flex", justifyContent: "space-between" }}
                 >
                   <div style={{ display: "flex" }}>
-                    <div style={{ paddingRight: "30px" }}>Visitors</div>
+                    <div style={{ paddingRight: "30px", fontWeight:"bold"}}>Visitors</div>
                     <div
                       style={{
                         display: "flex",
@@ -195,7 +196,7 @@ const Body = () => {
                     <MdExpandMore />
                   </div>
                 </div>
-                <div style={{ paddingBottom: "100px" }}>
+                <div style={{ paddingBottom: "20px" }}>
                   <Visitors />
                 </div>
                 <div
@@ -204,12 +205,13 @@ const Body = () => {
                     justifyContent: "space-around",
                     borderRadius: "10px",
                     background: "#F6EFFF",
+                    alignItems:"center"
                   }}
                 >
                   <div style={{ paddingLeft: "10px" }}>
-                    <FcInfo />
+                    <FcInfo size={20} color={purple}/>
                   </div>
-                  <div style={{ display: "flex" }}>
+                  <div style={{ display: "flex", alignItems:"center"}}>
                     <div style={{ color: "purple", paddingRight: "5px" }}>
                       26%
                     </div>
@@ -225,7 +227,7 @@ const Body = () => {
                   style={{ display: "flex", justifyContent: "space-between" }}
                 >
                   <div style={{ display: "flex" }}>
-                    <div style={{ paddingRight: "30px" }}>Income</div>
+                    <div style={{ paddingRight: "30px", fontWeight:"bold"}}>Income</div>
                     <div
                       style={{
                         display: "flex",
@@ -273,7 +275,7 @@ const Body = () => {
                   paddingBottom: "20px",
                 }}
               >
-                <div>Featured Projects</div>
+                <div style={{fontWeight:"bold"}}>Featured Projects</div>
                 <div>
                   <FiMoreHorizontal />
                 </div>
@@ -371,7 +373,7 @@ const Body = () => {
                   style={{
                     width: "400px",
                     height: "200px",
-                    background: "purple",
+                    background: "#6c49cd",
                     borderRadius: "20px",
                   }}
                 >

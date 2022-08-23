@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Lexend Deca', sans-serif;
+  padding-top: 50px;
 }
 .container-body {
   width: 800px;
@@ -17,6 +19,7 @@
 
 .kotak-kecil:hover {
   background-color: purple;
+  scale: 1;
 }
 
 header {
@@ -38,7 +41,6 @@ header {
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px #dcdcdf;
   align-items: center;
-  font-family: formula;
 }
 .card2-sesi1 {
   border-radius: 20px;
@@ -71,6 +73,9 @@ header {
   box-shadow: 5px 5px 5px 5px #dcdcdf;
 }
 
+.week{
+  color: #6149cd;
+}
 .week:hover {
   cursor: default;
   display: flex;

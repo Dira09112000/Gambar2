@@ -22,7 +22,7 @@ import React from "react";
 function SideBarKanan() {
   return (
     <>
-      <div className="background">
+      <div style={{paddingTop:"50px"}} className="background">
         <div className="container background">
           <SidebarHeader>
             <div className="">
@@ -57,7 +57,7 @@ function SideBarKanan() {
               <div className="font-1">Your earnings this month</div>
               <div className="font-2">$2.309.68</div>
               <div className="font-3">05 jun 2021 at 11:00 PM</div>
-              <Button className="btn-1 mt-3 mb-3">Withdraw All Earning</Button>
+              <div className="btn-1 mt-3 mb-3">Withdraw All Earning</div>
             </div>
           </SidebarHeader>
           <br />

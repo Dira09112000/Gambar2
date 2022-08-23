@@ -23,7 +23,7 @@
 .btn-1{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.10);
     padding: 10px 15px;
-    background-color: white;
+    background: white;
     color: #6149CD;
     font-size: smaller;
     text-decoration: none;
@@ -32,6 +32,11 @@
     border-right:0;
     border-bottom:0;
     border-radius: 18px;
+    cursor: default;
+}
+
+.btn-1:hover{
+    scale: 1.1;
 }
 
 .btn-2{
