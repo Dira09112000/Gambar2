@@ -22,8 +22,8 @@ import React from "react";
 function SideBarKanan() {
   return (
     <>
-      <div style={{paddingTop:"50px"}} className="background">
-        <div className="container background">
+      <div className="background" style={{paddingTop:"50px", width:"100%"}} >
+        <div style={{width:"300px"}} className="container background">
           <SidebarHeader>
             <div className="">
               <div className="row">

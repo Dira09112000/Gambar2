@@ -1,3 +1,7 @@
+:root{
+  --box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 @import url(https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=1380&t=st=1660544884~exp=1660545484~hmac=283d9a33e6033ee3fc7f05010b248e057f3dc8c0ade96b729f36a700edd3219c);
 .all {
   display: flex;
@@ -34,19 +38,24 @@ header {
   padding-top: 20px;
 }
 
+.cardsample{
+  width: 100%;
+  height: 100%;
+  background: tomato;
+}
 .card1-sesi1 {
   width: 450px;
   height: 300px;
   background: #ffff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px 5px #dcdcdf;
+  box-shadow: var(--box-shadow);
   align-items: center;
 }
 .card2-sesi1 {
   border-radius: 20px;
   width: 330px;
   height: 140px;
-  box-shadow: 5px 5px 5px 5px #dcdcdf;
+  box-shadow: var(--box-shadow);
 }
 
 .card1-sesi2 {
@@ -54,7 +63,7 @@ header {
   width: 330px;
   height: 380px;
   background: #ffff;
-  box-shadow: 5px 5px 5px 5px #dcdcdf;
+  box-shadow: var(--box-shadow);
 }
 
 .card2-sesi2 {
@@ -62,7 +71,7 @@ header {
   height: 600px;
   background: #ffff;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px 5px #dcdcdf;
+  box-shadow: var(--box-shadow);
 }
 
 .card3-sesi2 {
@@ -70,7 +79,7 @@ header {
   width: 330px;
   height: 200px;
   background: #ffff;
-  box-shadow: 5px 5px 5px 5px #dcdcdf;
+  box-shadow: var(--box-shadow);
 }
 
 .week{

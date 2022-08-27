@@ -6,10 +6,10 @@
 
 #header {
     position: absolute;
-    width: 320px;
+    width: 250px;
   }
   #header .pro-sidebar {
-    height: 150vh;
+    height: 130vh;
   }
 
   #header .pro-sidebar {
@@ -31,16 +31,16 @@
   }
 
   .background{
-    background-color: #F8FAFB;
+    background-color: #FFFFFF;
   }
 
   .font-trade{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: lighter;
     
   }
   .font-mask{
-    font-size: 30px;
+    font-size: 22px;
   }
 
 
@@ -52,7 +52,7 @@
     font-weight: bold;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout .text{
-    font-size: 20px;
+    font-size: 15px;
     padding: 0 20px;
     color: #000;
     font-weight: bold;
@@ -63,24 +63,24 @@
   }
   #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
     color: #000;
-    font-size: 20px;
+    font-size: 12px;
     margin: 10px 0px;
-    font-weight: bold;
+    font-weight: normal;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
     background-color: #F8FAFB;
     color: #000;
-    font-size: 50px;
+    font-size: 15px;
     border-radius: 3px;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
     color: #000;
-    font-size: 50px;
+    font-size: 20px;
   }
   #header .pro-sidebar-inner .pro-sidebar-layout .active {
-    color: white;
     background: var(--ungu-tebel);
     border-radius: 15px;
+    color: #FFFFFF;
   }
   .font-white{
     color: white;

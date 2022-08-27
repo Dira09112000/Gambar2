@@ -23,6 +23,7 @@ import {MdOutlineSchedule, MdWork, MdForwardToInbox} from "react-icons/md";
 import {FaMoneyBillAlt} from "react-icons/fa";
 import {GrNotification} from "react-icons/gr";
 import "react-pro-sidebar/dist/css/styles.css";
+import { BsArrowRight } from "react-icons/bs";
 import "../css/sidebarkiri.css";
 import { CgProfile } from "react-icons/cg";
 
@@ -41,9 +42,9 @@ const SideBarKiri = () => {
               {menuCollapse ? (
                 <VscThreeBars />
               ) : (
-                <div className="text py-5">
+                <div className="text py-3">
                   <div className="font-trade">
-                    <div style={{color:"orange"}}><VscRepoPush size={50}/></div>
+                    <div style={{color:"orange"}}><VscRepoPush size={30}/></div>
                   </div>
                   <div className="font-trade">Tom</div>
                   <div className="font-mask">Max</div>
@@ -77,25 +78,39 @@ const SideBarKiri = () => {
           <SidebarContent className="background"></SidebarContent>
           <SidebarFooter>
             <div className="wraper">
-              <div className="kotak"></div>
+              <div className="row kotak" style={{ alignItems : "center", color: "white"}}>
+                <div className="col-3"></div>
+                <div className="col-9">
+                    <div style={{fontSize : "14px" }}>
+                      Get Free Moonths
+                    </div>
+                    <div style={{fontSize : "14px" }}>
+                      of Premium
+                    </div>
+                    <div style={{display: "flex"}}>
+                      <div>
+                        Get Pro Now<BsArrowRight/>
+                      </div>
+                    </div>
+                </div>
+              </div>
             </div>
             <div className="wraper">
               <div className="footer-item">
                 <div>
-                  <CgProfile size={40} />
+                  <CgProfile size={25} />
                 </div>
                 <div
                   style={{
                     display: "flex",
                     width: "100px",
                     justifyContent: "space-between",
-                  }}
-                >
+                  }}>
                   <div>
-                    <GoSettings size={40} />
+                    <GoSettings size={25} />
                   </div>
                   <div>
-                    <TbLogout size={40} />
+                    <TbLogout size={25} />
                   </div>
                 </div>
               </div>

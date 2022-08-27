@@ -10,7 +10,6 @@ import React from "react";
 import Revenue from "./grafik/Revenue";
 import Taskdone from "./grafik/Taskdone";
 import Visitors from "./grafik/Visitors";
-import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 import { Teamactivites } from "./grafik/Teamactivites";
 import { purple } from "@mui/material/colors";
 
@@ -55,7 +54,7 @@ const Body = () => {
                 padding: "20px 20px 0px 20px",
               }}
             >
-              <div style={{fontWeight:"bold"}}>Revenue</div>
+              <div style={{ fontWeight: "bold" }}>Revenue</div>
               <div
                 style={{
                   display: "flex",
@@ -120,7 +119,7 @@ const Body = () => {
                 <div>
                   <Taskdone />
                 </div>
-                <div style={{fontWeight:"bold"}}>85%</div>
+                <div style={{ fontWeight: "bold" }}>85%</div>
                 <div>Task done</div>
               </div>
             </div>
@@ -135,7 +134,7 @@ const Body = () => {
                 <div>
                   <Teamactivites />
                 </div>
-                <div style={{fontWeight:"bold"}}>58%</div>
+                <div style={{ fontWeight: "bold" }}>58%</div>
                 <div>Team activities</div>
               </div>
             </div>
@@ -151,7 +150,9 @@ const Body = () => {
                   style={{ display: "flex", justifyContent: "space-between" }}
                 >
                   <div style={{ display: "flex" }}>
-                    <div style={{ paddingRight: "30px", fontWeight:"bold"}}>Visitors</div>
+                    <div style={{ paddingRight: "30px", fontWeight: "bold" }}>
+                      Visitors
+                    </div>
                     <div
                       style={{
                         display: "flex",
@@ -205,13 +206,13 @@ const Body = () => {
                     justifyContent: "space-around",
                     borderRadius: "10px",
                     background: "#F6EFFF",
-                    alignItems:"center"
+                    alignItems: "center",
                   }}
                 >
                   <div style={{ paddingLeft: "10px" }}>
-                    <FcInfo size={20} color={purple}/>
+                    <FcInfo size={20} color={purple} />
                   </div>
-                  <div style={{ display: "flex", alignItems:"center"}}>
+                  <div style={{ display: "flex", alignItems: "center" }}>
                     <div style={{ color: "purple", paddingRight: "5px" }}>
                       26%
                     </div>
@@ -227,7 +228,9 @@ const Body = () => {
                   style={{ display: "flex", justifyContent: "space-between" }}
                 >
                   <div style={{ display: "flex" }}>
-                    <div style={{ paddingRight: "30px", fontWeight:"bold"}}>Income</div>
+                    <div style={{ paddingRight: "30px", fontWeight: "bold" }}>
+                      Income
+                    </div>
                     <div
                       style={{
                         display: "flex",
@@ -275,7 +278,7 @@ const Body = () => {
                   paddingBottom: "20px",
                 }}
               >
-                <div style={{fontWeight:"bold"}}>Featured Projects</div>
+                <div style={{ fontWeight: "bold" }}>Featured Projects</div>
                 <div>
                   <FiMoreHorizontal />
                 </div>
@@ -398,12 +401,10 @@ const Body = () => {
                       Show all projects
                     </div>
                   </div>
-                  
                 </div>
               </div>
             </div>
           </div>
-
           {/* FOOTER */}
         </div>
       </div>
