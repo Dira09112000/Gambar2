@@ -25,6 +25,11 @@ const Revenue = () => {
   );
 
   const options = {
+    plugins:{
+      legend:{
+        display:false
+      }
+    },
     scales: {
       xAxes: [
         {
